@@ -12,7 +12,7 @@ body{
     
     background: hsl(260, 100%, 95%);
     display: grid;
-    grid-template-columns: 200px 1fr 300px 1fr;
+    grid-template-columns: 1fr 1fr 300px 1fr;
     grid-template-rows: 50px 290px 290px 80px;
     font-size: 13px;
     gap: 25px;
