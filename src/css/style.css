@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+html{
+    font-family: Barlow,sans-serif;
+}
+
+body{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    
+    background: hsl(260, 100%, 95%);
+    display: grid;
+    grid-template-columns: 200px 1fr 300px 1fr;
+    grid-template-rows: 50px 290px 290px 80px;
+    font-size: 13px;
+    gap: 25px;
+    
+    
+   
+}
+
+.container .quadro1{
+    grid-area: quadro1;
+    width: 615px;
+    height: 250px;
+    background: hsl(263, 55%, 52%);
+    text-align: left;
+    border-radius: 6px;
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+  
+}
+
+.container .quadro1 img{
+    border-radius: 40px;
+    border: 3px solid hsl(264, 82%, 80%);
+   
+}
+
+.container .quadro1 h4{
+   width: 150px;
+   margin-top: -50px;
+   margin-left: 80px;
+   font-size: 16px;
+  
+   
+}
+.container .quadro1 h1{
+    font-size: 21px;
+}
+
+.container .quadro1 p{
+    font-size: 14.7px;
+   
+}
+
+.container .quadro2{
+    grid-area: quadro2;
+    width: 250px;
+    height: 250px;
+    background: hsl(217, 19%, 35%);
+    text-align: left;
+    border-radius: 6px;
+    grid-column: 3;
+    grid-row: 2;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    
+}
+
+.container .quadro2 img{
+    border-radius: 40px;
+}
+
+.container .quadro2 h4{
+    width: 150px;
+   margin-top: -50px;
+   margin-left: 80px;
+   font-size: 16px;
+   
+}
+.container .quadro2 h1{
+    font-size: 21px;
+}
+
+
+.container .quadro2 p{
+    font-size: 15px;
+    
+}
+
+.container .quadro3{
+    grid-area: quadro3;
+    width: 250px;
+    height: 250px;
+    background: hsl(0, 0%, 100%);
+    text-align: left;
+    border-radius: 6px;
+    grid-column:2;
+    grid-row: 3;
+   
+    padding: 20px;
+    color: hsl(219, 29%, 14%);
+}
+
+.container .quadro3 img{
+    border-radius: 40px;
+}
+
+.container .quadro3 h4{
+    width: 150px;
+   margin-top: -50px;
+   margin-left: 80px;
+   font-size: 16px;
+
+}
+
+.container .quadro3 h1{
+    font-size: 21px;
+}
+.container .quadro3 p{
+    font-size: 15px;
+}
+.container .quadro4{
+    grid-area: quadro4;
+    width: 615px;
+    height: 250px;
+    background: hsl(0, 0%, 7%);
+    text-align: left;
+    border-radius: 6px;
+    grid-column: 3;
+    grid-row: 3;
+    
+    margin-left: -360px;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.container .quadro4 img{
+    border-radius: 40px;
+    border: 3px solid hsl(263, 55%, 52%);
+}
+
+.container .quadro4 h4{
+    width: 150px;
+   margin-top: -50px;
+   margin-left: 80px;
+   font-size: 16px;
+}
+
+.container .quadro4 h1{
+    font-size: 21px;
+}
+.container .quadro4 p{
+   font-size: 14.6px;
+}
+
+.container .quadro5{
+    grid-area: quadro5;
+    width: 250px;
+    height: 570px;
+    background-color: hsl(0, 0%, 100%);
+    
+    border-radius: 6px;
+    grid-column: 4;
+    grid-row: 2;
+    
+    padding: 20px;
+    color: hsl(219, 29%, 14%);
+}
+
+.container .quadro5 img{
+    border-radius: 40px;
+}
+
+.container .quadro5 h4{
+    width: 150px;
+   margin-top: -50px;
+   margin-left: 80px;
+   font-size: 16px;
+}
+
+.container .quadro5 h1{
+    font-size: 21px;
+}
+.container .quadro5 p{
+    font-size: 15px;
+}
+
+footer {
+   grid-area: footer;
+   grid-column: 3;
+   grid-row: 4;
+   
+  
+   
+}
+
+footer .attribution{
+    font-size: 11px; 
+    text-align: center;
+    
+}
+footer .attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px){
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+   
+    
+      }
+     
+      .container .quadro1{
+        height: 470px;
+        width: 250px;
+      }
+     
+       .container .quadro4{
+        height: 420px;
+        width: 250px;
+       
+        margin-left: 1px;
+       } 
+    
+}
+
