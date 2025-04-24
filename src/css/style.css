@@ -12,10 +12,11 @@ body{
     
     background: hsl(260, 100%, 95%);
     display: grid;
-    grid-template-columns: 10px 1fr 300px 1fr;
-    grid-template-rows: 50px 290px 290px 80px;
-    font-size: 13px;
-    gap: 25px;
+    grid-template-columns: 6.25rem 1fr 18.75rem 1fr;
+    grid-template-rows: 3.125rem 18.125rem 18.125rem 5rem;
+    font-size: .8125rem;
+    gap: 1.5625rem;
+    justify-content: center;
     
     
    
@@ -23,173 +24,171 @@ body{
 
 .container .quadro1{
     grid-area: quadro1;
-    width: 615px;
-    height: 250px;
+    width: 38.4375rem;
+    height: 15.625rem;
     background: hsl(263, 55%, 52%);
     text-align: left;
-    border-radius: 6px;
+    border-radius: .375rem;
     grid-column: 2;
     grid-row: 2;
-    padding: 20px;
+    padding: 1.25rem;
     color: hsl(0, 0%, 100%);
   
 }
 
 .container .quadro1 img{
-    border-radius: 40px;
+    border-radius: 2.5rem;
     border: 3px solid hsl(264, 82%, 80%);
    
 }
 
 .container .quadro1 h4{
-   width: 150px;
-   margin-top: -50px;
-   margin-left: 80px;
-   font-size: 16px;
+   width: 9.375rem;
+   margin-top: -3.125rem;
+   margin-left: 5rem;
+   font-size: 1rem;
   
    
 }
 .container .quadro1 h1{
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 .container .quadro1 p{
-    font-size: 14.7px;
+    font-size: .9187rem;
    
 }
 
 .container .quadro2{
     grid-area: quadro2;
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     background: hsl(217, 19%, 35%);
     text-align: left;
-    border-radius: 6px;
+    border-radius: .375rem;
     grid-column: 3;
     grid-row: 2;
     color: hsl(0, 0%, 100%);
-    padding: 20px;
+    padding: 1.25rem;
     
 }
 
 .container .quadro2 img{
-    border-radius: 40px;
+    border-radius: 2.5rem;
 }
 
 .container .quadro2 h4{
-    width: 150px;
-   margin-top: -50px;
-   margin-left: 80px;
-   font-size: 16px;
+    width: 9.375rem;
+   margin-top: -3.125rem;
+   margin-left: 5rem;
+   font-size: 1rem;
    
 }
-.container .quadro2 h1{
-    font-size: 21px;
-}
+
 
 
 .container .quadro2 p{
-    font-size: 15px;
+    font-size: .9375rem;
     
 }
 
 .container .quadro3{
     grid-area: quadro3;
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     background: hsl(0, 0%, 100%);
     text-align: left;
-    border-radius: 6px;
+    border-radius: .375rem;
     grid-column:2;
     grid-row: 3;
    
-    padding: 20px;
+    padding: 1.25rem;
     color: hsl(219, 29%, 14%);
 }
 
 .container .quadro3 img{
-    border-radius: 40px;
+    border-radius: 2.5rem;
 }
 
 .container .quadro3 h4{
-    width: 150px;
-   margin-top: -50px;
-   margin-left: 80px;
-   font-size: 16px;
+    width: 9.375rem;
+   margin-top: -3.125rem;
+   margin-left: 5rem;
+   font-size: 1rem;
 
 }
 
 .container .quadro3 h1{
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 .container .quadro3 p{
-    font-size: 15px;
+    font-size: .9375rem;
 }
 .container .quadro4{
     grid-area: quadro4;
-    width: 615px;
-    height: 250px;
+    width: 38.4375rem;
+    height: 15.625rem;
     background: hsl(0, 0%, 7%);
     text-align: left;
-    border-radius: 6px;
+    border-radius: .375rem;
     grid-column: 3;
     grid-row: 3;
     
-    margin-left: -360px;
-    padding: 20px;
+    margin-left: -22.5rem;
+    padding: 1.25rem;
     color: hsl(0, 0%, 100%);
 
 }
 
 .container .quadro4 img{
-    border-radius: 40px;
-    border: 3px solid hsl(263, 55%, 52%);
+    border-radius: 2.5rem;
+    border: .1875rem solid hsl(263, 55%, 52%);
 }
 
 .container .quadro4 h4{
-    width: 150px;
-   margin-top: -50px;
-   margin-left: 80px;
-   font-size: 16px;
+    width: 9.375rem;
+   margin-top: -3.125rem;
+   margin-left: 5rem;
+   font-size: 1rem;
 }
 
 .container .quadro4 h1{
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 .container .quadro4 p{
-   font-size: 14.6px;
+   font-size: .9125rem;
 }
 
 .container .quadro5{
     grid-area: quadro5;
-    width: 250px;
-    height: 570px;
+    width: 15.625rem;
+    height: 35.625rem;
     background-color: hsl(0, 0%, 100%);
     
-    border-radius: 6px;
+    border-radius: .375rem;
     grid-column: 4;
     grid-row: 2;
     
-    padding: 20px;
+    padding: 1.25rem;
     color: hsl(219, 29%, 14%);
 }
 
 .container .quadro5 img{
-    border-radius: 40px;
+    border-radius: 2.5rem;
 }
 
 .container .quadro5 h4{
-    width: 150px;
-   margin-top: -50px;
-   margin-left: 80px;
-   font-size: 16px;
+    width: 9.375rem;
+   margin-top: -3.125rem;
+   margin-left: 5rem;
+   font-size: 1rem;
 }
 
 .container .quadro5 h1{
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 .container .quadro5 p{
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 footer {
@@ -202,7 +201,7 @@ footer {
 }
 
 footer .attribution{
-    font-size: 11px; 
+    font-size: .6875rem; 
     text-align: center;
     
 }
@@ -210,7 +209,7 @@ footer .attribution a{
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 768px){
+@media (max-width: 890px){
     .container{
     display: flex;
     justify-content: center;
@@ -221,15 +220,15 @@ footer .attribution a{
       }
      
       .container .quadro1{
-        height: 470px;
-        width: 250px;
+        height: 29.375rem;
+        width: 15.625rem;
       }
      
        .container .quadro4{
-        height: 420px;
-        width: 250px;
+        height: 26.25rem;
+        width: 15.625rem;
        
-        margin-left: 1px;
+        margin-left: .0625rem;
        } 
     
 }
